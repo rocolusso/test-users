@@ -1,0 +1,37 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:@typescript-eslint/recommended"
+  ],
+
+
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+
+
+
+  "rules": {
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    ],
+    "@typescript-eslint/no-explicit-any": "off"
+
+  }
+
+
+
+
+
+
+
+
+}
